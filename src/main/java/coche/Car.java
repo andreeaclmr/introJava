@@ -18,8 +18,13 @@ public class Car {
         this.brand = brand;
         this.model = model;
         this.year = year;
+    };
+
+    // Un método conducir(double km) que incremente el kilometraje en la cantidad de kilómetros km proporcionada.
+    public double drive(double km) {
+        double kmCounter = km;
+        double newCounter = this.km + kmCounter;
+        System.out.println(newCounter);
+        return newCounter;
     }
 
-
-
-}
