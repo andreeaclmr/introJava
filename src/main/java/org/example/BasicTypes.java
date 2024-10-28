@@ -4,8 +4,6 @@ package org.example;
 
 public class BasicTypes {
     public static void main(String[] args) {
-                boolean isActive = true;
-                System.out.println(isActive);
                 byte primer = 0;
                 System.out.println(primer);
                 short corto = 66;
@@ -18,5 +16,9 @@ public class BasicTypes {
                 System.out.println(flotar);
                 double doblar = 34.30d;
                 System.out.println(doblar);
+                char a = 'A';
+                System.out.println(a);
+                boolean isActive = true;
+                System.out.println(isActive);
             }
         }
