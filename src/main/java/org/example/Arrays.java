@@ -7,7 +7,12 @@ public class Arrays {
 
         int[] numeros = {1, 2, 3, 4, 5};
         String[] nombres = {"Tokyo", "Beijing", "Paris", "Berlin", "London"};
-        System.out.println(numeros);
-        System.out.println(nombres);
+        for (int numero: numeros) {
+            System.out.println("numeros : " + numero);
+        }
+        for (String ciudad : nombres) {
+            System.out.println("ciudad : " + nombres);
+        }
+
     }
 }
