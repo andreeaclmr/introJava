@@ -2,15 +2,20 @@ package org.example;
 
 public class ControlStructures {
     public static void main(String[] args) {
-        boolean isActive = true;
+        byte number = 18;
 
-        // imprimir el usuario está activo si está activo
-        // imprimir el usuario no está activo si no está activo
+        // variable edad de un usuario con la minima memoria posible
+        // imprimir el usuario es mayor de edad si 18 o +
+        // imprimit el usuario es menor de edad si 17 o -
 
-        if (isActive) {
-            System.out.println("El usuario está activo");
+        if (number >= 18) {
+            System.out.println("El usuario es mayor de edad");
         } else {
-            System.out.println("El usuario no está activo");
+            System.out.println("El usuario es menor de edad");
         }
     }
 }
+
+
+
+
