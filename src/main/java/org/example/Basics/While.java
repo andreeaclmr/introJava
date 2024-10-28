@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Basics;
 
 public class While {
     public static void main(String[] args) {
