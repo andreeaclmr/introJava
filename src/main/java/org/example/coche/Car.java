@@ -1,4 +1,4 @@
-package coche;
+package org.example.coche;
 
 // - **Atributos** (variables de instancia):
 //    - `marca` (String)
@@ -18,7 +18,9 @@ public class Car {
         this.brand = brand;
         this.model = model;
         this.year = year;
-    };
+    }
+
+    ;
 
     // Un método conducir(double km) que incremente el kilometraje en la cantidad de kilómetros km proporcionada.
     public double drive(double km) {
@@ -27,4 +29,7 @@ public class Car {
         System.out.println(newCounter);
         return newCounter;
     }
+}
+
+
 
