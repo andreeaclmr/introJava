@@ -11,15 +11,20 @@ public abstract class Vehicle {
     // constructor
     public Vehicle(String brand) {
         this.brand = brand;
-        this.velocity = velocity;
+        this.velocity = 0;
     }
 
     // metodos
-    public void acelerar() {
-        this.velocity += 10;
+    public abstract void acelerar();  // vehiculo no implementa acelerar, siendo abstracto
 
-    }
+    public String getBrand() { return brand; }
 
+    public int getVelocity() { return velocity; }
+
+    public int getRuedas() { return ruedas; }
+
+
+    /*
     public void frenar() {
         this.velocity -= 10;
     }
@@ -30,6 +35,6 @@ public abstract class Vehicle {
     }
 
     public int getRuedas() {
-        return ruedas;
+        return ruedas; */
     }
-}
+

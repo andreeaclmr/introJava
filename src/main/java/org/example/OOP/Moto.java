@@ -1,27 +1,21 @@
 package org.example.OOP;
 
-public class Moto extends Vehicle{
+public class Moto extends Vehicle {
 
-
-    @Override
-    public void frenar() {
-        super.frenar();
-        this.velocity = 30;
-    }
-
-    @Override
-    public void acelerar() {
-        super.acelerar();
-        this.velocity = 30;
-    }
 
     public Moto(String brand) {
         super(brand);
         this.ruedas = 2;
 
-
-
     }
 
+    @Override
+    public void acelerar() {
+        this.velocity += 30;
+    }
 
+    @Override
+    public String toString() {
+        return "La moto va a: " + this.velocity + " km/h";
+    }
 }
