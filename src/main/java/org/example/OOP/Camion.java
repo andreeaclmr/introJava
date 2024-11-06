@@ -3,7 +3,7 @@ package org.example.OOP;
 public class Camion extends Vehicle {
     public Camion(String marca) {
         super(marca);
-    this.ruedas = 4;
+        this.ruedas = 4;
     }
 
     @Override

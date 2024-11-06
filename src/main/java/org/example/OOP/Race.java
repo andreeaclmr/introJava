@@ -1,5 +1,4 @@
 package org.example.OOP;
-
 import java.util.List;
 
 public class Race {
