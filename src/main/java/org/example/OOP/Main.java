@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // crea objetos coche y moto
         Car car1 = new Car("Seat");
         Moto moto1 = new Moto("Yamaha");
+        Camion camion1 = new Camion("Volvo");
 
         car1.acelerar();
         moto1.acelerar();

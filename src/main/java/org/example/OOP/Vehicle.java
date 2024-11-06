@@ -1,16 +1,20 @@
 package org.example.OOP;
 
-public class Vehicle {
+public abstract class Vehicle {
 
+    // 3 atributos
     private String brand;
     protected int velocity;
     protected int ruedas;
 
+
+    // constructor
     public Vehicle(String brand) {
         this.brand = brand;
         this.velocity = velocity;
     }
 
+    // metodos
     public void acelerar() {
         this.velocity += 10;
 
@@ -20,6 +24,7 @@ public class Vehicle {
         this.velocity -= 10;
     }
 
+    // getters
     public int getVelocity() {
         return velocity;
     }
