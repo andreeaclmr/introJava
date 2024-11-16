@@ -9,6 +9,14 @@ public class ForLoop {
             if (i % 2 == 0) {
                 System.out.println(i);
             }
+
+            // los números impares de 1-10 con un While
+            int num = 1;
+
+            while (i <= 10) {
+                System.out.println(num + " ");
+                num *= 2;
+            }
         }
     }
 }
