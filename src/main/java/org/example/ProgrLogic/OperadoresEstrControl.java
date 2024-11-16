@@ -17,7 +17,7 @@ public class OperadoresEstrControl {
         int multiply = a * b;
         int divide = a / b;
         int module = a % b;
-        System.out.println("This is the " + module + " result");
+        System.out.println("This is the module result " + module);
 
 
         /*
