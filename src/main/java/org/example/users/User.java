@@ -4,8 +4,16 @@ public class User {
     private String name;
     private String surname;
 
+    public User(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
 
-    public boolean fullname() {
-        return false;
+   /*  public void printFullName() {
+        System.out.println(this.name + " " + this.surname );
+    } */
+
+    public String fullname() {
+        return name + " " + surname;
     }
 }

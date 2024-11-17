@@ -1,4 +1,4 @@
-/* package org.example.users;
+ package org.example.users;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class Main {
 
             User[] users = {user1, user2, user3};
     for (User user : users)
-        System.out.println(user1.fullname());
+        System.out.println(user1);
     }
-} */
+}
